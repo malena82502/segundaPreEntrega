@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UCHUCUTA</title>
     <link rel="shortcut icon" href="../img/713818_3.png">
-    "<!--google fonts-->"
+    <!--google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
     <!-- link bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    "<!--link de css-->"
+    <!-- link fontawesome -->
+    <script src="https://kit.fontawesome.com/1d73479ef9.js" crossorigin="anonymous"></script>
+    <!--link de css-->
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
@@ -44,7 +46,7 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div class="navbar-nav">
-                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                                <a class="nav-link" aria-current="page" href="../index.html">HOME</a>
                                 <a class="nav-link" href="./sobreUchucuta.html">Sobre Uchucuta</a>
                                 <a class="nav-link" href="./nuestraCarta.html">Nuestra Carta</a>
                                 <a class="nav-link" href="./reservas.html">Reservas</a>
@@ -61,7 +63,7 @@
         <!-- carousel de bootstrap -->
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <div class="container fluid">
+                <div id="fotosCarousel" class="container">
                     <div id="carouselExampleFade" class="carousel slide carousel-fade">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -77,7 +79,7 @@
                                 <img src="https://media.istockphoto.com/id/1132609106/es/foto/comida-peruana-causa-rellena-de-pollo-pollo-causa-rellena-plato-tradicional-peruano-de-patata.jpg?s=612x612&w=0&k=20&c=c8pTayzXqzSdT21r_8_TmbD7dvdYdrClh_7tb5rGoSM=" class="d-block w-100" alt="Causa limeña" class="causaLimeña">
                             </div>
                             <div class="carousel-item">
-                                <img src="https://recetascocinaperuana.com/wp-content/uploads/2021/08/platos-tipicos-peruanos.jpg" class="d-block w-100" alt="juane" class="juane">
+                                <img src="https://recetascocinaperuana.com/wp-content/uploads/2021/08/platos-tipicos-peruanos.jpg" class="d-block w-100" alt="Juane" class="juane">
                             </div>
                             <div class="carousel-item">
                                 <img src="https://media.istockphoto.com/id/114248931/es/foto/suspiro-lime%C3%B1o.jpg?s=612x612&w=0&k=20&c=1305ciLigKhJS1wlUSYcM-ApizCQImIjqV84hB7uMms=" class="d-block w-100" alt="Suspiro limeño" class="suspiro">
@@ -86,9 +88,8 @@
                                 <img src="https://picchutravel.com/wp-content/uploads/ceviche-peruano.jpg" class="d-block w-100" alt="ceviche de pescado" class="cevichePescado">
                             </div>
                             <div class="carousel-item">
-                                <img src="https://media.istockphoto.com/id/114248931/es/foto/suspiro-lime%C3%B1o.jpg?s=612x612&w=0&k=20&c=1305ciLigKhJS1wlUSYcM-ApizCQImIjqV84hB7uMms=" class="d-block w-100" alt="Suspiro limeño" class="suspiro">
+                                <img src="https://viajerocasual.com/wp-content/uploads/2021/05/comidas-tipicas-de-peru-tacacho.jpg" class="d-block w-100" alt="Tacacho con sesina" class="tacacho">
                             </div>
-
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -104,18 +105,20 @@
         </div>
         </main>
     
-        <section>
+        <section class="piscoCarta">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="col-lg-12 co l-md-12 col-sm-12">
                     <ul id="carta">
                         <li>ENTRADAS:
                             <ul class="platos">
                                 <li>Papas a la huancaina</li>
+                                <li>Papas a la ocopa</li>
                                 <li>Papa rellena</li>
-                                <li>Causa limeña</li>
+                                <li>Causa limeña </li>
                                 <li>Anticuchos</li>
-                                <li>Tamales</li>
+                                <li>Tamales de pollo</li>
                                 <li>Rocoto relleno</li>
+                                <li></li>
                                 <br>
                             </ul>
                         </li>
@@ -125,11 +128,22 @@
                                 <li>Arroz chaufa</li>
                                 <li>Ají de gallina</li>
                                 <li>Arroz con pollo</li>
-                                <li>Ceviche</li>
+                                <li>Ceviche de pescado</li>
+                                <li>Ceviche de mariscos</li>
+                                <li>Tiradito de pescado</li>
+                                <li>Leche de tigre</li>
+                                <li>Escabeche de pescado</li>
                                 <li>Carapulcra</li>
                                 <li>Olluquitos con charqui</li>
                                 <li>Tacu tacu</li>
                                 <li>Tallarín saltado</li>
+                                <li>Arroz con mariscos</li>
+                                <li>Cau-cau </li>
+                                <li>Tallarines verdes</li>
+                                <li>Chupe de camarones</li>
+                                <li>Patasca</li>
+                                <li>Caldo de gallina</li>
+                                <li>Chicharron de chancho</li>
                                 <br>
                             </ul>
                         </li>
@@ -139,6 +153,9 @@
                                 <li>Mazamorra morada</li>
                                 <li>Arroz con leche</li>
                                 <li>Torta 3 leches</li>
+                                <li>Picarones</li>
+                                <li>Arroz con leche</li>
+                                <li>Arroz zambito</li>
                                 <br>
                             </ul>
                         </li>
@@ -148,6 +165,10 @@
                                 <li>Chilcano de pisco</li>
                                 <li>Chicha de jora</li>
                                 <li>Chicha morada</li>
+                                <li>sangría</li>
+                                <li>Cocktail de algarrobina</li>
+                                <li>Inca Kola</li>
+                                <li>Cerveza Cuzqueña</li>
                             </ul>
                         </li>
                     </ul>
